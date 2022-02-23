@@ -1,0 +1,219 @@
+---
+title: "Eric Scott's resume"
+author: Eric R. Scott
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+```{css echo=FALSE}
+h1 {
+  text-transform: none; /* I don't like my name in all caps */
+}
+
+.pagedjs_page {
+  --pagedjs-margin-top: 0.5in;
+}
+
+html:root {
+  --sidebar-width: 12rem;
+}
+
+/* move sidebar to left (not working yet)*/
+/*
+.aside {
+  float: left;
+  position: relative;
+}
+@page{
+  background: linear-gradient(to left, var(--sidebar-background-color), var(--sidebar-background-color) var(--sidebar-background-width), white var(--sidebar-background-width));
+}
+*/
+```
+# Aside
+
+<!-- ![Eric Scott](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width="80%"} -->
+
+## Contact Info {#contact}
+
+-   <i class="fa fa-envelope"></i> [scottericr\@gmail.com](mailto:scottericr@gmail.com){.email}
+-   <i class="fa fa-github"></i> [github.com/Aariq](https://github.com/Aariq)
+-   <i class="fa fa-linkedin"></i> [Eric-R-Scott-PhD](https://www.linkedin.com/in/Eric-R-Scott-PhD/)
+-   <i class="fa fa-twitter"></i> [@LeafyEricScott](https://twitter.com/LeafyEricScott)
+-   <i class="fa fa-phone"></i> +1 925-788-9855
+-   For more information, please contact me via email.
+
+## Skills {#skills}
+
+- R (tidyverse, targets, RMarkdown),
+- R package development,
+- Statistics & modeling,
+- Data visualization,
+- Data wrangling,
+- Data validation,
+- Git & GitHub,
+- High Performance Computing (SLURM),
+
+## Disclaimer {#disclaimer}
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+# Main
+
+## Eric Scott {#title}
+
+### Currently searching for a research software engineer position
+
+I'm currently a postdoctoral researcher with experience in R package development, modeling, blah blah blah
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+### Tufts University
+
+Ph.D.
+in Biology
+
+Medford, MA
+
+2020
+<!--2014 - 2020-->
+
+<!--Dissertation: Indirect and interactive effects of climate and herbivory on tea metabolites and quality-->
+
+### University of Illinois at Urbana-Champaign
+
+M.S.
+in Ecology, Evolution, and Conservation Biology
+
+Urbana, IL
+
+2010
+<!--2007 - 2010-->
+
+<!--Thesis: Interactions between habitat and ungulate herbivory limit the spread of *Ipomopsis aggregata* (Polemoniaceae).-->
+
+### Whitman College
+
+B.A.
+in Biology
+
+Walla Walla, WA
+
+2006
+<!-- start - end format is too cramped, unless thesis title is also included-->
+<!--2002 - 2006--> 
+
+<!--Thesis: Behavioral evidence for host-race formation in the gall midge *Dasineura folliculi* (Felt).-->
+
+## Research Experience {data-icon="laptop"}
+
+### Graduate Research Assistant
+
+Beijing Institute of Genomics, Chinese Academy of Sciences
+
+Beijing, China
+
+2011 - 2014
+
+-   Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
+-   Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
+
+### Bioinformatican
+
+My Health Gene Technology Co., Ltd.
+
+Beijing, China
+
+2015 - 2016
+
+-   Investigated how cancer cells spread to other parts of the body at the single cell level.
+
+### Visiting Scientist
+
+University of Alabama at Birmingham
+
+AL, USA
+
+2016 - 2018
+
+-   Investigated the role of mitochondria in development of cancer.
+-   Investigated the evolution of genome architecture and its role in important evolutionary events.
+-   Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome.
+
+## Professional Experience {data-icon="suitcase"}
+
+### Data Scientist, intern
+
+SupStat Inc.
+
+Beijing, China
+
+2014
+
+::: concise
+-   Taught R language to beginners.
+-   Wrote Shiny app demos.
+-   Converted statistical tutorials from SPSS to R language.
+:::
+
+### Bioinformatician
+
+My Health Gene Technology Co., Ltd.
+
+Beijing, China
+
+2015 - 2016
+
+::: concise
+-   Analyzed whole-exome sequencing data.
+-   Wrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.
+-   Studied tumor metastasis and wrote research reports.
+-   Also did case studies to identify the genetic defect causing rare disease.
+:::
+
+## Teaching Experience {data-icon="chalkboard-teacher"}
+
+### Introduction to R Language for Beginners.
+
+Instructor of R and Data Mining Training Courses at SupStat Inc.
+
+Beijing, China
+
+2014
+
+### Computational Biology and Bioinformatics.
+
+Teaching assistant of GBS CB2-201 courses at UAB
+
+AL, USA
+
+2016 - 2017
+
+## Selected Publications and Posters {data-icon="file"}
+
+### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
+
+Poster for 2013 International Conference of Genomics
+
+Qingdao, China
+
+2014
+
+**Yu L**, Chen B, Zhang Z.
+
+### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
+
+J Cell Sci.
+2016 May 15;129(10):2075-84.
+
+N/A
+
+2016
+
+Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W.
