@@ -6,34 +6,11 @@ output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: false
+    css: ['css/custom.css', 'resume']
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
 
-```{css echo=FALSE}
-h1 {
-  text-transform: none; /* I don't like my name in all caps */
-}
-
-.pagedjs_page {
-  --pagedjs-margin-top: 0.5in;
-}
-
-html:root {
-  --sidebar-width: 12rem;
-}
-
-/* move sidebar to left (not working yet)*/
-/*
-.aside {
-  float: left;
-  position: relative;
-}
-@page{
-  background: linear-gradient(to left, var(--sidebar-background-color), var(--sidebar-background-color) var(--sidebar-background-width), white var(--sidebar-background-width));
-}
-*/
-```
 # Aside
 
 <!-- ![Eric Scott](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width="80%"} -->
@@ -43,20 +20,26 @@ html:root {
 -   <i class="fa fa-envelope"></i> [scottericr\@gmail.com](mailto:scottericr@gmail.com){.email}
 -   <i class="fa fa-github"></i> [github.com/Aariq](https://github.com/Aariq)
 -   <i class="fa fa-linkedin"></i> [Eric-R-Scott-PhD](https://www.linkedin.com/in/Eric-R-Scott-PhD/)
--   <i class="fa fa-twitter"></i> [@LeafyEricScott](https://twitter.com/LeafyEricScott)
+-   <i class="fa fa-twitter"></i> [\@LeafyEricScott](https://twitter.com/LeafyEricScott)
 -   <i class="fa fa-phone"></i> +1 925-788-9855
--   For more information, please contact me via email.
 
 ## Skills {#skills}
 
-- R (tidyverse, targets, RMarkdown),
-- R package development,
-- Statistics & modeling,
-- Data visualization,
-- Data wrangling,
-- Data validation,
-- Git & GitHub,
-- High Performance Computing (SLURM),
+-   R package development,
+-   Statistics & modeling,
+-   Data visualization,
+-   Data wrangling,
+-   Data validation,
+-   Git & GitHub,
+-   High Performance Computing (SLURM),
+
+## R Packages {#skills}
+
+- tidyverse
+- rmarkdown
+- targets
+- devtools/usethis
+- 
 
 ## Disclaimer {#disclaimer}
 
@@ -68,21 +51,19 @@ Last updated on `r Sys.Date()`.
 
 ## Eric Scott {#title}
 
-### Currently searching for a research software engineer position
+### Ecologist | Research Software Engineer | Modeler
 
-I'm currently a postdoctoral researcher with experience in R package development, modeling, blah blah blah
+I'm a researcher and educator with experience in R package development, modeling, blah blah blah looking to transition to industry (?)
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
 ### Tufts University
 
-Ph.D.
-in Biology
+Ph.D. in Biology
 
 Medford, MA
 
-2020
-<!--2014 - 2020-->
+2020 <!--2014 - 2020-->
 
 <!--Dissertation: Indirect and interactive effects of climate and herbivory on tea metabolites and quality-->
 
@@ -93,8 +74,7 @@ in Ecology, Evolution, and Conservation Biology
 
 Urbana, IL
 
-2010
-<!--2007 - 2010-->
+2010 <!--2007 - 2010-->
 
 <!--Thesis: Interactions between habitat and ungulate herbivory limit the spread of *Ipomopsis aggregata* (Polemoniaceae).-->
 
@@ -105,9 +85,7 @@ in Biology
 
 Walla Walla, WA
 
-2006
-<!-- start - end format is too cramped, unless thesis title is also included-->
-<!--2002 - 2006--> 
+2006 <!-- start - end format is too cramped, unless thesis title is also included--> <!--2002 - 2006-->
 
 <!--Thesis: Behavioral evidence for host-race formation in the gall midge *Dasineura folliculi* (Felt).-->
 
