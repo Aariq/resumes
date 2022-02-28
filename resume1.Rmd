@@ -35,11 +35,11 @@ output:
 
 ## R Packages {#skills}
 
-- tidyverse
-- rmarkdown
-- targets
-- devtools/usethis
-- 
+-   tidyverse
+-   rmarkdown
+-   targets
+-   devtools/usethis
+-   
 
 ## Disclaimer {#disclaimer}
 
@@ -51,32 +51,11 @@ Last updated on `r Sys.Date()`.
 
 ## Eric Scott {#title}
 
-### Ecologist | Research Software Engineer | Modeler
+### Ecological Modeler | Research Software Engineer
 
 I'm a researcher and educator with experience in R package development, modeling, blah blah blah looking to transition to industry (?)
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
-
-### Tufts University
-
-Ph.D. in Biology
-
-Medford, MA
-
-2020 <!--2014 - 2020-->
-
-<!--Dissertation: Indirect and interactive effects of climate and herbivory on tea metabolites and quality-->
-
-### University of Illinois at Urbana-Champaign
-
-M.S.
-in Ecology, Evolution, and Conservation Biology
-
-Urbana, IL
-
-2010 <!--2007 - 2010-->
-
-<!--Thesis: Interactions between habitat and ungulate herbivory limit the spread of *Ipomopsis aggregata* (Polemoniaceae).-->
 
 ### Whitman College
 
@@ -89,101 +68,146 @@ Walla Walla, WA
 
 <!--Thesis: Behavioral evidence for host-race formation in the gall midge *Dasineura folliculi* (Felt).-->
 
+### University of Illinois at Urbana-Champaign
+
+M.S.
+in Ecology, Evolution, and Conservation Biology
+
+Urbana, IL
+
+2010 <!--2007 - 2010-->
+
+<!--Thesis: Interactions between habitat and ungulate herbivory limit the spread of *Ipomopsis aggregata* (Polemoniaceae).-->
+
+### Tufts University
+
+Ph.D. in Biology
+
+Medford, MA
+
+2020 <!--2014 - 2020-->
+
+<!--Dissertation: Indirect and interactive effects of climate and herbivory on tea metabolites and quality-->
+
+
 ## Research Experience {data-icon="laptop"}
 
-### Graduate Research Assistant
+### Graduate Researcher
 
-Beijing Institute of Genomics, Chinese Academy of Sciences
+Dept. of Integrative Biology, University of Illinois
 
-Beijing, China
+Urbana, IL
 
-2011 - 2014
 
--   Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
--   Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
 
-### Bioinformatican
+### Research Assistant
 
-My Health Gene Technology Co., Ltd.
+Colorado Natural Heritage Program
 
-Beijing, China
+Fort Collins, CO
 
-2015 - 2016
+2010
 
--   Investigated how cancer cells spread to other parts of the body at the single cell level.
+-   did wetland stuff
+- team work
+- herbarium
 
-### Visiting Scientist
+### Graduate Researcher
 
-University of Alabama at Birmingham
+Biology Department, Tufts University
 
-AL, USA
+Medford, MA
+
+2014 - 2020
+
+- research on tea
+- pls vs pca
+- Mentored undergraduates performing independent research in field, lab, and computational settings
+
+
+
+### Postdoctoral Associate
+
+Wildlife Ecology and Conservation, University of Florida
+
+Remote
+
+2020 - Present
+
+- research
+- Data packages
+- Mentored undergraduates in data analysis and best practices for collaborative, reproducible research
+
+## Software Development Experience {data-icon="suitcase"}
+
+### webchem
+
+rOpenSci
+
+Remote
+
+2020
+
+::: concise
+- Received R Consortium funding for continued development of the rOpenSci package `webchem`
+- Collaborated with package maintainers via git/GitHub and Slack
+- Unified UX/UI across package functions
+- Wrote functions to integrate across data sources
+:::
+
+### bumbl
+
+Crone Lab, Tufts University
+
+Medford, MA
+
+2019 - 2020
+
+::: concise
+- Created an R package for modeling bumblebee colony growth and decline
+- Adapted analysis code into re-usable functions
+- Optimized code for speed and reliability
+- Wrote unit tests and implemented continuous integration
+- Package reviewed by rOpenSci
+:::
+
+<!-- other packages? holodeck? bdffpRain? ipmr? -->
+
+## Selected Teaching Experience {data-icon="chalkboard-teacher"}
+
+### R for biostatistics
+
+Teaching assistant for Biostatistics at Tufts University
+
+Medford, MA
 
 2016 - 2018
 
--   Investigated the role of mitochondria in development of cancer.
--   Investigated the evolution of genome architecture and its role in important evolutionary events.
--   Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome.
+- Developed and taught a mandatory recitation section to introduce students to statistics using R
+- Developed assignments and handouts using R Markdown
+- Assessed student performance and gave constructive feedback
 
-## Professional Experience {data-icon="suitcase"}
+### Ecological Statistics and Data
 
-### Data Scientist, intern
+Instructor of Record at Tufts University
 
-SupStat Inc.
+Medford, MA
 
-Beijing, China
+2020
 
-2014
+- 
 
-::: concise
--   Taught R language to beginners.
--   Wrote Shiny app demos.
--   Converted statistical tutorials from SPSS to R language.
-:::
+## Selected Publications {data-icon="file"}
 
-### Bioinformatician
+### Delayed effects of climate on vital rates lead to demographic divergence in Amazonian forest fragments.
 
-My Health Gene Technology Co., Ltd.
+Global Change Biology 2021; 28:463-479. DOI: [10.1111/gcb.15900](https://doi.org/10.1111/gcb.15900)
 
-Beijing, China
+N/A
 
-2015 - 2016
+2021
 
-::: concise
--   Analyzed whole-exome sequencing data.
--   Wrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.
--   Studied tumor metastasis and wrote research reports.
--   Also did case studies to identify the genetic defect causing rare disease.
-:::
-
-## Teaching Experience {data-icon="chalkboard-teacher"}
-
-### Introduction to R Language for Beginners.
-
-Instructor of R and Data Mining Training Courses at SupStat Inc.
-
-Beijing, China
-
-2014
-
-### Computational Biology and Bioinformatics.
-
-Teaching assistant of GBS CB2-201 courses at UAB
-
-AL, USA
-
-2016 - 2017
-
-## Selected Publications and Posters {data-icon="file"}
-
-### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
-
-Poster for 2013 International Conference of Genomics
-
-Qingdao, China
-
-2014
-
-**Yu L**, Chen B, Zhang Z.
+**Scott ER**, Uriarte M, Bruna EM
 
 ### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
 
