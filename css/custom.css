@@ -67,9 +67,17 @@ sup {
   padding-top: 0.005rem;
 }
 
-/* Laptop icon isn't centered by default which is lame */
+/* Some icons aren't centered by default, so manually fix */
 .fa-laptop {
-  margin-left: -3px;
+  margin-left: -2.5px;
+}
+
+.fa-chalkboard-teacher {
+  margin-left: -3.5px;
+}
+
+.fa-file {
+  margin-left: 2px;
 }
 
 /* When we have links at bottom in a list make sure they actually are numbered */
@@ -100,9 +108,10 @@ sup {
   font-size: 0.75rem;
 }
 
-/* Make little circle outline be a light blue */
+/* Make little circle outline be a light blue and center with line */
 .decorator::after {
   background-color: #08306b;
+  margin-left: -0.5px;
 }
 
 /* Remove the fake bullets from lists */

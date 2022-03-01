@@ -1,5 +1,5 @@
 ---
-title: "Eric Scott's resume"
+title: "RStudio internships"
 author: Eric R. Scott
 date: "`r Sys.Date()`"
 output:
@@ -25,21 +25,27 @@ output:
 
 ## Skills {#skills}
 
--   R package development,
 -   Statistics & modeling,
 -   Data visualization,
 -   Data wrangling,
 -   Data validation,
+-   R package development,
 -   Git & GitHub,
 -   High Performance Computing (SLURM),
+
+## Modeling {#skills}
+
+-   GLMs
+-   GAMs
+-   Hierarchical models
+-   Multivariate data analysis
 
 ## R Packages {#skills}
 
 -   tidyverse
 -   rmarkdown
 -   targets
--   devtools/usethis
--   
+-   pointblank
 
 ## Disclaimer {#disclaimer}
 
@@ -57,16 +63,16 @@ I'm a researcher and educator with experience in R package development, modeling
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
-### Whitman College
+### Tufts University
 
-B.A.
-in Biology
+Ph.D. in Biology
 
-Walla Walla, WA
+Medford, MA
 
-2006 <!-- start - end format is too cramped, unless thesis title is also included--> <!--2002 - 2006-->
+2020 <!--2014 - 2020-->
 
-<!--Thesis: Behavioral evidence for host-race formation in the gall midge *Dasineura folliculi* (Felt).-->
+<!--Dissertation: Indirect and interactive effects of climate and herbivory on tea metabolites and quality-->
+
 
 ### University of Illinois at Urbana-Champaign
 
@@ -79,25 +85,45 @@ Urbana, IL
 
 <!--Thesis: Interactions between habitat and ungulate herbivory limit the spread of *Ipomopsis aggregata* (Polemoniaceae).-->
 
-### Tufts University
+### Whitman College
 
-Ph.D. in Biology
+B.A.
+in Biology
 
-Medford, MA
+Walla Walla, WA
 
-2020 <!--2014 - 2020-->
+2006 <!-- start - end format is too cramped, unless thesis title is also included--> <!--2002 - 2006-->
 
-<!--Dissertation: Indirect and interactive effects of climate and herbivory on tea metabolites and quality-->
+<!--Thesis: Behavioral evidence for host-race formation in the gall midge *Dasineura folliculi* (Felt).-->
 
 
-## Research Experience {data-icon="laptop"}
+## Research Experience {data-icon="leaf"}
+
+### Postdoctoral Associate
+
+Wildlife Ecology and Conservation, University of Florida
+
+Remote
+
+2020 - Present
+
+- Analyzed a decade of plant demography data with generalized additive models to determine the delayed and seasonal effects of climate and habitat fragmentation
+- Projected plant population dynamics under climate change scenarios defined in the Coupled Model Intercomparison Project, phase 6 (CMIP6)
+- Mentored undergraduates in data analysis and best practices for collaborative, reproducible research
+
 
 ### Graduate Researcher
 
-Dept. of Integrative Biology, University of Illinois
+Biology Department, Tufts University
 
-Urbana, IL
+Medford, MA
 
+2014 - 2020
+
+- Managed projects through entire research lifecycle
+- Combined field experiments, metabolomics, and modeling to gain insights into impacts of climate change on tea quality
+- Provided statistics and programming consultation to projects inside and outside of my main lab group
+- Mentored undergraduates performing independent research in field, lab, and computational settings
 
 
 ### Research Assistant
@@ -108,37 +134,21 @@ Fort Collins, CO
 
 2010
 
--   did wetland stuff
-- team work
-- herbarium
+- Worked in teams to survey soil and vegetation in remote wetlands throughout Colorado
+- Entered data in Microsoft Access relational database
 
-### Graduate Researcher
 
-Biology Department, Tufts University
+<!-- ### Graduate Researcher -->
 
-Medford, MA
+<!-- Dept. of Integrative Biology, University of Illinois -->
 
-2014 - 2020
+<!-- Urbana, IL -->
 
-- research on tea
-- pls vs pca
-- Mentored undergraduates performing independent research in field, lab, and computational settings
+<!-- 2007 - 2010 -->
 
 
 
-### Postdoctoral Associate
-
-Wildlife Ecology and Conservation, University of Florida
-
-Remote
-
-2020 - Present
-
-- research
-- Data packages
-- Mentored undergraduates in data analysis and best practices for collaborative, reproducible research
-
-## Software Development Experience {data-icon="suitcase"}
+## Software Development Experience {data-icon="laptop"}
 
 ### webchem
 
@@ -149,10 +159,10 @@ Remote
 2020
 
 ::: concise
-- Received R Consortium funding for continued development of the rOpenSci package `webchem`
-- Collaborated with package maintainers via git/GitHub and Slack
-- Unified UX/UI across package functions
-- Wrote functions to integrate across data sources
+- R Consortium funded development
+- Collaborated via git/GitHub and Slack
+- Unified UX/UI across package
+- Wrote new functions to integrate across data sources
 :::
 
 ### bumbl
@@ -164,8 +174,7 @@ Medford, MA
 2019 - 2020
 
 ::: concise
-- Created an R package for modeling bumblebee colony growth and decline
-- Adapted analysis code into re-usable functions
+- Adapted analysis code into an R package
 - Optimized code for speed and reliability
 - Wrote unit tests and implemented continuous integration
 - Package reviewed by rOpenSci
@@ -175,18 +184,6 @@ Medford, MA
 
 ## Selected Teaching Experience {data-icon="chalkboard-teacher"}
 
-### R for biostatistics
-
-Teaching assistant for Biostatistics at Tufts University
-
-Medford, MA
-
-2016 - 2018
-
-- Developed and taught a mandatory recitation section to introduce students to statistics using R
-- Developed assignments and handouts using R Markdown
-- Assessed student performance and gave constructive feedback
-
 ### Ecological Statistics and Data
 
 Instructor of Record at Tufts University
@@ -195,7 +192,21 @@ Medford, MA
 
 2020
 
-- 
+- Developed curriculum to teach probability theory, generalized linear models and mixed-effects models using ecological examples
+- Created assignments and assessments in R Markdown
+- Mentored a teaching assistant in charge of a lab section
+
+### R for biostatistics
+
+Teaching assistant for Biostatistics at Tufts University
+
+Medford, MA
+
+2016 - 2018
+
+- Developed and taught a mini-course introducing biostatistics students to R
+- Developed assignments and handouts using R Markdown
+- Assessed student performance and gave constructive feedback
 
 ## Selected Publications {data-icon="file"}
 
@@ -209,13 +220,12 @@ N/A
 
 **Scott ER**, Uriarte M, Bruna EM
 
-### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
+### Using the Right Tool for the Job: The Difference between Unsupervised and Supervised Analyses of Multivariate Ecological Data.
 
-J Cell Sci.
-2016 May 15;129(10):2075-84.
+Oecologia, 2021; 196:12-25. DOI: [10.1007/s00442-020-04848-w](https://doi.org/10.1007/s00442-020-04848-w)
 
 N/A
 
-2016
+2021
 
-Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W.
+**Scott ER** and Crone EE
