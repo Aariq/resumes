@@ -32,11 +32,6 @@ sup {
   font-style: italic;
 }
 
-/* Avoid the breaking within a section */
-.blocks {
-  break-inside: avoid;
-}
-
 * {
   /* Override default right margin for sidebar*/
   --pagedjs-margin-right: 0.2in;
@@ -58,6 +53,7 @@ sup {
   width: var(--sidebar-width) !important;
   padding-top: 2rem;
 }
+
 
 .details .place {
   margin-top: 0.25rem;
