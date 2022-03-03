@@ -8,7 +8,7 @@ output:
     self_contained: false
     css: ['css/custom.css', 'resume']
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 # Aside
@@ -36,16 +36,17 @@ output:
 ## Modeling {#skills}
 
 -   GLMs
--   GAMs
 -   Hierarchical models
 -   Multivariate data analysis
+-   GAMs
 
 ## R Packages {#skills}
 
 -   tidyverse
 -   rmarkdown
 -   targets
--   pointblank
+-   pointblank <!-- replace with something else?-->
+-   usethis / devtools
 
 ## Disclaimer {#disclaimer}
 
@@ -57,9 +58,10 @@ Last updated on `r Sys.Date()`.
 
 ## Eric Scott {#title}
 
-### Ecological Modeler | Research Software Engineer
+### Ecological Modeler \| Research Software Engineer
 
-I'm a researcher and educator with experience in R package development, modeling, blah blah blah looking to transition to industry (?)
+I'm a researcher and educator with experience doing and teaching statistical modeling, data visualization, and reproducible research.
+I'm looking to transition into an industry role where I can apply my skills and continue to learn as part of a team.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
@@ -72,7 +74,6 @@ Medford, MA
 2020 <!--2014 - 2020-->
 
 <!--Dissertation: Indirect and interactive effects of climate and herbivory on tea metabolites and quality-->
-
 
 ### University of Illinois at Urbana-Champaign
 
@@ -96,7 +97,6 @@ Walla Walla, WA
 
 <!--Thesis: Behavioral evidence for host-race formation in the gall midge *Dasineura folliculi* (Felt).-->
 
-
 ## Research Experience {data-icon="leaf"}
 
 ### Postdoctoral Associate
@@ -105,12 +105,11 @@ Wildlife Ecology and Conservation, University of Florida
 
 Remote
 
-2020 - Present
+Present - 2020
 
-- Analyzed a decade of plant demography data with generalized additive models to determine the delayed and seasonal effects of climate and habitat fragmentation
-- Projected plant population dynamics under climate change scenarios defined in the Coupled Model Intercomparison Project, phase 6 (CMIP6)
-- Mentored undergraduates in data analysis and best practices for collaborative, reproducible research
-
+-   Analyzed a decade of plant demography data with generalized additive models to determine the delayed and seasonal effects of climate and habitat fragmentation
+-   Projected plant population dynamics under climate change scenarios defined in the Coupled Model Intercomparison Project, phase 6 (CMIP6)
+-   Mentored undergraduates in data analysis and best practices for collaborative, reproducible research
 
 ### Graduate Researcher
 
@@ -118,13 +117,12 @@ Biology Department, Tufts University
 
 Medford, MA
 
-2014 - 2020
+2020 - 2014
 
-- Managed projects through entire research lifecycle
-- Combined field experiments, metabolomics, and modeling to gain insights into impacts of climate change on tea quality
-- Provided statistics and programming consultation to projects inside and outside of my main lab group
-- Mentored undergraduates performing independent research in field, lab, and computational settings
-
+-   Managed projects through entire research lifecycle
+-   Combined field experiments, metabolomics, and modeling to gain insights into impacts of climate change on tea quality
+-   Provided statistics and programming consultation to projects inside and outside of my main lab group
+-   Mentored undergraduates performing independent research in field, lab, and computational settings
 
 ### Research Assistant
 
@@ -134,9 +132,8 @@ Fort Collins, CO
 
 2010
 
-- Worked in teams to survey soil and vegetation in remote wetlands throughout Colorado
-- Entered data in Microsoft Access relational database
-
+-   Worked in teams to survey soil and vegetation in remote wetlands throughout Colorado
+-   Entered data in Microsoft Access relational database
 
 <!-- ### Graduate Researcher -->
 
@@ -145,8 +142,6 @@ Fort Collins, CO
 <!-- Urbana, IL -->
 
 <!-- 2007 - 2010 -->
-
-
 
 ## Software Development Experience {data-icon="laptop"}
 
@@ -159,10 +154,10 @@ Remote
 2020
 
 ::: concise
-- R Consortium funded development
-- Collaborated via git/GitHub and Slack
-- Unified UX/UI across package
-- Wrote new functions to integrate across data sources
+-   R Consortium funded development
+-   Collaborated via git/GitHub and Slack
+-   Unified UX/UI across package
+-   Wrote new functions to integrate across data sources
 :::
 
 ### bumbl
@@ -171,13 +166,13 @@ Crone Lab, Tufts University
 
 Medford, MA
 
-2019 - 2020
+2019
 
 ::: concise
-- Adapted analysis code into an R package
-- Optimized code for speed and reliability
-- Wrote unit tests and implemented continuous integration
-- Package reviewed by rOpenSci
+-   Adapted analysis code into an R package
+-   Optimized code for speed and reliability
+-   Wrote unit tests and implemented continuous integration
+-   Package reviewed by rOpenSci
 :::
 
 <!-- other packages? holodeck? bdffpRain? ipmr? -->
@@ -192,9 +187,9 @@ Medford, MA
 
 2020
 
-- Developed curriculum to teach probability theory, generalized linear models and mixed-effects models using ecological examples
-- Created assignments and assessments in R Markdown
-- Mentored a teaching assistant in charge of a lab section
+-   Developed curriculum to teach probability theory, generalized linear models and mixed-effects models using ecological examples
+-   Created assignments and assessments in R Markdown
+-   Mentored a teaching assistant in charge of a lab section
 
 ### R for biostatistics
 
@@ -202,17 +197,18 @@ Teaching assistant for Biostatistics at Tufts University
 
 Medford, MA
 
-2016 - 2018
+2018 - 2016
 
-- Developed and taught a mini-course introducing biostatistics students to R
-- Developed assignments and handouts using R Markdown
-- Assessed student performance and gave constructive feedback
+-   Developed and taught a mini-course introducing biostatistics students to R
+-   Developed assignments and handouts using R Markdown
+-   Assessed student performance and gave constructive feedback
 
 ## Selected Publications {data-icon="file"}
 
 ### Delayed effects of climate on vital rates lead to demographic divergence in Amazonian forest fragments.
 
-Global Change Biology 2021; 28:463-479. DOI: [10.1111/gcb.15900](https://doi.org/10.1111/gcb.15900)
+Global Change Biology 2021; 28:463-479.
+DOI: [10.1111/gcb.15900](https://doi.org/10.1111/gcb.15900)
 
 N/A
 
@@ -222,7 +218,8 @@ N/A
 
 ### Using the Right Tool for the Job: The Difference between Unsupervised and Supervised Analyses of Multivariate Ecological Data.
 
-Oecologia, 2021; 196:12-25. DOI: [10.1007/s00442-020-04848-w](https://doi.org/10.1007/s00442-020-04848-w)
+Oecologia, 2021; 196:12-25.
+DOI: [10.1007/s00442-020-04848-w](https://doi.org/10.1007/s00442-020-04848-w)
 
 N/A
 
