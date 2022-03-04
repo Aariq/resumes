@@ -1,5 +1,5 @@
 ---
-title: "RStudio internships"
+title: "RStudio Data Science Educator"
 author: Eric R. Scott
 date: "`r Sys.Date()`"
 output:
@@ -25,25 +25,19 @@ knit: pagedown::chrome_print
 
 ## Skills {#skills}
 
--   Statistics & modeling,
--   Data visualization,
--   Data wrangling,
--   Data validation,
--   R package development,
--   Git & GitHub,
--   High Performance Computing (SLURM),
+-   Curriculum development
+-   Statistics & modeling
+-   Data visualization
+-   Data wrangling
+-   Data validation
+-   R package development
+-   Git & GitHub
 
-## Modeling {#skills}
-
--   GLMs
--   Hierarchical models
--   Multivariate data analysis
--   GAMs
 
 ## R Packages {#skills}
 
 -   tidyverse
--   rmarkdown
+-   rmarkdown / blogdown
 -   targets
 -   pointblank <!-- replace with something else?-->
 -   usethis / devtools
@@ -58,7 +52,7 @@ Last updated on `r Sys.Date()`.
 
 ## Eric Scott {#title}
 
-### Ecological Modeler \| Research Software Engineer
+### Educator \| Ecological Modeler \| Research Software Engineer
 
 I'm a researcher and educator with experience doing and teaching statistical modeling, data visualization, and reproducible research.
 I'm looking to transition into an industry role where I can apply my skills and continue to learn as part of a team.
@@ -97,6 +91,44 @@ Walla Walla, WA
 
 <!--Thesis: Behavioral evidence for host-race formation in the gall midge *Dasineura folliculi* (Felt).-->
 
+## Selected Teaching Experience {data-icon="chalkboard-teacher"}
+
+### Ecological Statistics and Data [<i class="fa fa-github"></i>](https://github.com/Aariq/ecological-stats)
+
+Instructor of Record at Tufts University
+
+Medford, MA
+
+2020
+
+-   Developed curriculum to teach probability theory, generalized linear models and mixed-effects models using ecological examples
+-   Created assignments and assessments in R Markdown
+-   Mentored a teaching assistant in charge of a lab section
+
+### R for biostatistics [<i class="fa fa-github"></i>](https://github.com/Aariq/biostatistics-recitation-2018)
+
+Teaching assistant at Tufts University
+
+Medford, MA
+
+2018 - 2016
+
+-   Developed and taught a mini-course introducing biostatistics students to R
+-   Developed assignments and handouts using R Markdown
+-   Assessed student performance and gave constructive feedback
+
+### General Biology I
+
+Faculty at Front Range Community College
+
+Fort Collins, CO
+
+2014 - 2011
+
+- Taught introductory biology to students with a wide variety of backgrounds and career goals 
+- Created and continuously revised curriculum and assessments using evidence-based pedagogy
+- Adapted curriculum for a student population with a large proportion of combat veterans and non-traditional students
+
 ## Research Experience {data-icon="leaf"}
 
 ### Postdoctoral Associate
@@ -124,16 +156,16 @@ Medford, MA
 -   Provided statistics and programming consultation to projects inside and outside of my main lab group
 -   Mentored undergraduates performing independent research in field, lab, and computational settings
 
-### Research Assistant
+<!-- ### Research Assistant -->
 
-Colorado Natural Heritage Program
+<!-- Colorado Natural Heritage Program -->
 
-Fort Collins, CO
+<!-- Fort Collins, CO -->
 
-2010
+<!-- 2010 -->
 
--   Worked in teams to survey soil and vegetation in remote wetlands throughout Colorado
--   Entered data in Microsoft Access relational database
+<!-- -   Worked in teams to survey soil and vegetation in remote wetlands throughout Colorado -->
+<!-- -   Entered data in Microsoft Access relational database -->
 
 <!-- ### Graduate Researcher -->
 
@@ -143,78 +175,19 @@ Fort Collins, CO
 
 <!-- 2007 - 2010 -->
 
-## Software Development Experience {data-icon="laptop"}
 
-### webchem
+## Selected Writings {data-icon="file"}
 
-rOpenSci
+<!-- ### Delayed effects of climate on vital rates lead to demographic divergence in Amazonian forest fragments. -->
 
-Remote
+<!-- Global Change Biology 2021; 28:463-479. -->
+<!-- DOI: [10.1111/gcb.15900](https://doi.org/10.1111/gcb.15900) -->
 
-2020
+<!-- N/A -->
 
-::: concise
--   R Consortium funded development
--   Collaborated via git/GitHub and Slack
--   Unified UX/UI across package
--   Wrote new functions to integrate across data sources
-:::
+<!-- 2021 -->
 
-### bumbl
-
-Crone Lab, Tufts University
-
-Medford, MA
-
-2019
-
-::: concise
--   Adapted analysis code into an R package
--   Optimized code for speed and reliability
--   Wrote unit tests and implemented continuous integration
--   Package reviewed by rOpenSci
-:::
-
-<!-- other packages? holodeck? bdffpRain? ipmr? -->
-
-## Selected Teaching Experience {data-icon="chalkboard-teacher"}
-
-### Ecological Statistics and Data
-
-Instructor of Record at Tufts University
-
-Medford, MA
-
-2020
-
--   Developed curriculum to teach probability theory, generalized linear models and mixed-effects models using ecological examples
--   Created assignments and assessments in R Markdown
--   Mentored a teaching assistant in charge of a lab section
-
-### R for biostatistics
-
-Teaching assistant for Biostatistics at Tufts University
-
-Medford, MA
-
-2018 - 2016
-
--   Developed and taught a mini-course introducing biostatistics students to R
--   Developed assignments and handouts using R Markdown
--   Assessed student performance and gave constructive feedback
-
-## Selected Publications {data-icon="file"}
-
-### Delayed effects of climate on vital rates lead to demographic divergence in Amazonian forest fragments.
-
-Global Change Biology 2021; 28:463-479.
-DOI: [10.1111/gcb.15900](https://doi.org/10.1111/gcb.15900)
-
-N/A
-
-2021
-
-**Scott ER**, Uriarte M, Bruna EM
+<!-- **Scott ER**, Uriarte M, Bruna EM -->
 
 ### Using the Right Tool for the Job: The Difference between Unsupervised and Supervised Analyses of Multivariate Ecological Data.
 
@@ -226,3 +199,61 @@ N/A
 2021
 
 **Scott ER** and Crone EE
+
+### Muffins vs. Cupcakes: Round 2
+
+Case study demonstrating supervised and unsupervised multivariate analyses. https://www.ericrscott.com/post/cupcakes-vs-muffins-round-2/
+
+N/A
+
+2020
+
+### Treat Your Treatments as Continuous
+
+A plea to ecologists to stop binning continuous data to do ANOVAs. https://www.ericrscott.com/post/stop-binning/
+
+N/A
+
+2021
+
+<!-- ### Hacking GLMs to Fit Population Growth Models -->
+
+<!-- Walkthrough of log-linearizing population models and fitting as GLMs. https://www.ericrscott.com/post/hacking-glms/ -->
+
+<!-- N/A -->
+
+<!-- 2020 -->
+
+## Software Development Experience {data-icon="laptop"}
+
+### webchem [<i class="fa fa-github"></i>](https://docs.ropensci.org/webchem/)
+
+rOpenSci
+
+Remote
+
+2020
+
+::: concise
+-   [R Consortium funded](https://www.r-consortium.org/projects/awarded-projects/2019-group-2#webchem:+accessing+chemical+information+from+the+web)
+-   Collaborated via git/GitHub
+-   Unified UX/UI across package
+-   Wrote new functions to integrate across data sources
+:::
+
+<!-- ### [bumbl](https://github.com/Aariq/bumbl) -->
+
+<!-- Crone Lab, Tufts University -->
+
+<!-- Medford, MA -->
+
+<!-- 2019 -->
+
+<!-- ::: concise -->
+<!-- -   Adapted analysis code into an R package -->
+<!-- -   Refactored for speed and reliability -->
+<!-- -   Wrote unit tests and implemented continuous integration -->
+<!-- -   [rOpenSci reviewed](https://github.com/ropenscilabs/statistical-software-review/issues/2) -->
+<!-- ::: -->
+
+<!-- other packages? holodeck? bdffpRain? ipmr? -->
