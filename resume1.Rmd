@@ -55,7 +55,7 @@ Last updated on `r Sys.Date()`.
 ### Educator \| Ecological Modeler \| Research Software Engineer
 
 I'm a researcher and educator with experience doing and teaching statistical modeling, data visualization, and reproducible research.
-I'm looking to transition into an industry role where I can apply my skills and continue to learn as part of a team.
+I'm looking for opportunities where I can apply my skills as an educator and data scientist as part of a team.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
